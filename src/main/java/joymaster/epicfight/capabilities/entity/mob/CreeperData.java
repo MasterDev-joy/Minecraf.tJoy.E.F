@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
 import java.util.Iterator;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.EntityAICreeperSwellStoppable;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.EntityAICreeperSwellStoppable;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.EntityAICreeperSwell;
 import net.minecraft.entity.ai.EntityAITasks;
@@ -73,8 +73,8 @@ public class CreeperData extends MobData<EntityCreeper> {
 	}
 	
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
-		if (stunType == StunType.LONG) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
+		if (stunType == IExtendedDamageSource.StunType.LONG) {
 			return Animations.CREEPER_HIT_LONG;
 		} else {
 			return Animations.CREEPER_HIT_SHORT;

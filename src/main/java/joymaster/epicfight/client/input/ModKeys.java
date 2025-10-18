@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.client.input;
+package joymaster.epicfight.client.input;
 
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.relauncher.Side;

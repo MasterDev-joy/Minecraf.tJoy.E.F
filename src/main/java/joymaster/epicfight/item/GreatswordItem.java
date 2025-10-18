@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.item;
+package joymaster.epicfight.item;
 
 import java.util.UUID;
 
 import com.google.common.collect.Multimap;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.HandProperty;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.WeaponCategory;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.WieldStyle;
-import maninthehouse.epicfight.capabilities.item.ModWeaponCapability;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.gamedata.Sounds;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.item.CapabilityItem.HandProperty;
+import joymaster.epicfight.capabilities.item.CapabilityItem.WeaponCategory;
+import joymaster.epicfight.capabilities.item.CapabilityItem.WieldStyle;
+import joymaster.epicfight.capabilities.item.ModWeaponCapability;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Colliders;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.gamedata.Sounds;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;

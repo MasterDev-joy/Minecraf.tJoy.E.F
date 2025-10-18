@@ -1,11 +1,13 @@
-package maninthehouse.epicfight.network;
+package joymaster.epicfight.network;
 
 import java.nio.charset.StandardCharsets;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.handler.codec.DecoderException;
 import io.netty.handler.codec.EncoderException;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.network.client.*;
+import joymaster.epicfight.network.server.*;
 import maninthehouse.epicfight.network.client.*;
 import maninthehouse.epicfight.network.server.*;
 import net.minecraft.entity.Entity;

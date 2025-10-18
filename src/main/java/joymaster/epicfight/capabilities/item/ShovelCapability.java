@@ -1,14 +1,14 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.gamedata.Sounds;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.game.Pair;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.gamedata.Colliders;
+import joymaster.epicfight.gamedata.Sounds;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.game.Pair;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
 import net.minecraft.item.Item;
 import net.minecraft.util.SoundEvent;
 

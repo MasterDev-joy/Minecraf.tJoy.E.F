@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.item;
+package joymaster.epicfight.item;
 
 import net.minecraft.item.Item;
 

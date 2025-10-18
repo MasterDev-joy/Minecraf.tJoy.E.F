@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.client.capabilites.entity;
+package joymaster.epicfight.client.capabilites.entity;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSPlayAnimation;
-import maninthehouse.epicfight.skill.SkillContainer;
-import maninthehouse.epicfight.skill.SkillSlot;
-import maninthehouse.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSPlayAnimation;
+import joymaster.epicfight.skill.SkillContainer;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.utils.math.MathUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;

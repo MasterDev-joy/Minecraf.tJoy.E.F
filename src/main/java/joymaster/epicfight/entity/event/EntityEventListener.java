@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.entity.event;
+package joymaster.epicfight.entity.event;
 
 import java.util.Collection;
 import java.util.UUID;
@@ -6,7 +6,7 @@ import java.util.UUID;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 
 public class EntityEventListener
 {

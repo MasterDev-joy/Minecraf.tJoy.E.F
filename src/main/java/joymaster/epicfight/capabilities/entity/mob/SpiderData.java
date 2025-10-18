@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
 import java.util.Iterator;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.entity.ai.EntityAIPatternWithChance;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.entity.ai.EntityAIPatternWithChance;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAITasks;
@@ -67,7 +67,7 @@ public class SpiderData<T extends EntitySpider> extends MobData<T> {
 	}
 
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
 		return Animations.SPIDER_HIT;
 	}
 

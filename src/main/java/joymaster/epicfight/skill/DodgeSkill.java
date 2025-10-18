@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 import io.netty.buffer.Unpooled;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.client.events.engine.ControllEngine;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSExecuteSkill;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
+import joymaster.epicfight.client.events.engine.ControllEngine;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSExecuteSkill;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.network.PacketBuffer;
 

@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.EntityAIArcher;
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.EntityAIArcher;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.IRangedAttackMob;
@@ -98,7 +98,7 @@ public abstract class BipedMobData<T extends EntityCreature> extends MobData<T> 
 	}
 
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
 		if (orgEntity.getRidingEntity() != null) {
 			return Animations.BIPED_HIT_ON_MOUNT;
 		} else {

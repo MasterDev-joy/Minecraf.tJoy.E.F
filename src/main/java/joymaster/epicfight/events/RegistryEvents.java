@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.events;
+package joymaster.epicfight.events;
 
-import maninthehouse.epicfight.gamedata.Sounds;
-import maninthehouse.epicfight.item.ModItems;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.item.ModItems;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.gamedata.Sounds;
 import net.minecraft.item.Item;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.event.RegistryEvent;

@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
-import maninthehouse.epicfight.capabilities.entity.mob.CreeperData;
+import joymaster.epicfight.capabilities.entity.mob.CreeperData;
 import net.minecraft.entity.ai.EntityAICreeperSwell;
 import net.minecraft.entity.monster.EntityCreeper;
 

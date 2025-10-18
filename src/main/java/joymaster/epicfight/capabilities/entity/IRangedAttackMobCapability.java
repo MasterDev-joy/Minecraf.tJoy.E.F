@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.capabilities.entity;
+package joymaster.epicfight.capabilities.entity;
 
-import maninthehouse.epicfight.utils.game.IndirectDamageSourceExtended;
+import joymaster.epicfight.utils.game.IndirectDamageSourceExtended;
 import net.minecraft.entity.Entity;
 
 public interface IRangedAttackMobCapability {

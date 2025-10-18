@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.renderer.layer.HeldItemLayer;
-import maninthehouse.epicfight.client.renderer.layer.WearableItemLayer;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.client.renderer.layer.HeldItemLayer;
+import joymaster.epicfight.client.renderer.layer.WearableItemLayer;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.inventory.EntityEquipmentSlot;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.math;
+package joymaster.epicfight.utils.math;
 
 import java.nio.FloatBuffer;
 

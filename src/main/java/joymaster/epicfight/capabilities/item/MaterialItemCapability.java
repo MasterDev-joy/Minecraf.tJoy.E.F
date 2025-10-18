@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemHoe;

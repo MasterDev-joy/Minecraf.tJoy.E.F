@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class LinkAnimation extends DynamicAnimation
 {

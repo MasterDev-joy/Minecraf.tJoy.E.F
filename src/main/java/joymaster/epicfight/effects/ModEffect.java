@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.effects;
+package joymaster.epicfight.effects;
 
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.potion.Potion;
 import net.minecraft.util.ResourceLocation;
 

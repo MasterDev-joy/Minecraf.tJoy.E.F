@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.capabilities.entity.mob.BipedMobData;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData.EntityState;
+import joymaster.epicfight.capabilities.entity.mob.BipedMobData;
 import net.minecraft.entity.monster.EntityMob;
 
 public class EntityAIPatternSuccessive extends EntityAIAttackPattern

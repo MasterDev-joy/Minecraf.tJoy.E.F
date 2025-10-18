@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.events;
+package joymaster.epicfight.events;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.ProviderEntity;
-import maninthehouse.epicfight.capabilities.ProviderItem;
-import maninthehouse.epicfight.capabilities.entity.CapabilityEntity;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.ProviderEntity;
+import joymaster.epicfight.capabilities.ProviderItem;
+import joymaster.epicfight.capabilities.entity.CapabilityEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -12,7 +12,7 @@ import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber(modid=EpicFightMod.MODID)
+@Mod.EventBusSubscriber(modid= EpicFightMod.MODID)
 public class CapabilityEvent {
 	@SubscribeEvent
 	public static void attachItemCapability(AttachCapabilitiesEvent<ItemStack> event) {

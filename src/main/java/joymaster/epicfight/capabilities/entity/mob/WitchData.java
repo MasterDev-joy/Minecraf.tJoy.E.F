@@ -1,14 +1,14 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.EntityAIRangeAttack;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimationTarget;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.EntityAIRangeAttack;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCPlayAnimationTarget;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.monster.EntityWitch;

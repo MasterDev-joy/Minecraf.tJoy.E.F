@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.client.model.custom;
+package joymaster.epicfight.client.model.custom;
 
 import java.util.List;
 
+import joymaster.epicfight.client.model.ClientModel;
+import joymaster.epicfight.client.model.Mesh;
+import joymaster.epicfight.collada.VertexData;
+import joymaster.epicfight.utils.math.Vec2f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import org.apache.commons.lang3.ArrayUtils;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.client.model.ClientModel;
-import maninthehouse.epicfight.client.model.Mesh;
-import maninthehouse.epicfight.collada.VertexData;
-import maninthehouse.epicfight.utils.math.Vec2f;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelRenderer;

@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.client.animation;
+package joymaster.epicfight.client.animation;
 
-import maninthehouse.epicfight.animation.types.DynamicAnimation;
-import maninthehouse.epicfight.animation.types.MixLinkAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.collada.AnimationDataExtractor;
+import joymaster.epicfight.collada.AnimationDataExtractor;
+import joymaster.epicfight.animation.types.DynamicAnimation;
+import joymaster.epicfight.animation.types.MixLinkAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

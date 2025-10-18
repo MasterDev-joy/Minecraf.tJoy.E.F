@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.main.proxy;
+package joymaster.epicfight.main.proxy;
 
-import maninthehouse.epicfight.capabilities.ProviderEntity;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.input.ModKeys;
-import maninthehouse.epicfight.client.model.ClientModels;
+import joymaster.epicfight.capabilities.ProviderEntity;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.client.input.ModKeys;
+import joymaster.epicfight.client.model.ClientModels;
 
 public class ClientProxy extends CommonProxy implements IProxy {
 	@Override

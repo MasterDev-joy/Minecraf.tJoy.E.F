@@ -1,15 +1,15 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import java.util.List;
 
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import org.lwjgl.opengl.GL11;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.Tessellator;

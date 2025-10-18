@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.gamedata;
+package joymaster.epicfight.gamedata;
 
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 

@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.client.renderer.item;
+package joymaster.epicfight.client.renderer.item;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
 import net.minecraftforge.fml.relauncher.Side;

@@ -1,20 +1,20 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.animation.AnimationPlayer;
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.client.model.ClientModel;
-import maninthehouse.epicfight.client.model.ClientModels;
-import maninthehouse.epicfight.client.renderer.layer.Layer;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.AnimationPlayer;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.client.model.ClientModel;
+import joymaster.epicfight.client.model.ClientModels;
+import joymaster.epicfight.client.renderer.layer.Layer;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.RenderLivingBase;

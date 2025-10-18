@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityCaveSpider;

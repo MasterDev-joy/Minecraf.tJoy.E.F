@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class JointTransform {
 	public static final JointTransform defaultTransform = new JointTransform(new Vec3f(0.0F,0.0F,0.0F), new Quaternion(0.0F,0.0F,0.0F,1.0F), new Vec3f(1.0F,1.0F,1.0F));

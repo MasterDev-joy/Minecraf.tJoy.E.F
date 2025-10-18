@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.config;
+package joymaster.epicfight.config;
 
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Name;
 import net.minecraftforge.common.config.Config.Type;

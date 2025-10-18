@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,23 +8,21 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.Quaternion;
-import maninthehouse.epicfight.animation.types.ActionAnimation;
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.capabilities.entity.mob.BipedMobData;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.game.AttackResult;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.DamageType;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.Quaternion;
+import joymaster.epicfight.animation.types.ActionAnimation;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.game.AttackResult;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.mob.BipedMobData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
@@ -190,8 +188,8 @@ public class AttackAnimation extends ActionAnimation {
 	}
 	
 	protected IExtendedDamageSource getDamageSourceExt(LivingData<?> entitydata, Entity target) {
-		DamageType dmgType = this.getProperty(AnimationProperty.DAMAGE_TYPE).orElse(DamageType.PHYSICAL);
-		StunType stunType = this.getProperty(AnimationProperty.STUN_TYPE).orElse(StunType.SHORT);
+		IExtendedDamageSource.DamageType dmgType = this.getProperty(AnimationProperty.DAMAGE_TYPE).orElse(IExtendedDamageSource.DamageType.PHYSICAL);
+		IExtendedDamageSource.StunType stunType = this.getProperty(AnimationProperty.STUN_TYPE).orElse(IExtendedDamageSource.StunType.SHORT);
 		IExtendedDamageSource extDmgSource = entitydata.getDamageSource(stunType, dmgType, this.getId());
 		
 		this.getProperty(AnimationProperty.ARMOR_NEGATION).ifPresent((opt) -> {

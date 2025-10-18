@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.network.server;
+package joymaster.epicfight.network.server;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.ModNetworkManager;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;

@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.monster.AbstractIllager;
 
 public abstract class AbstractIllagerData<T extends AbstractIllager> extends BipedMobData<T> {
@@ -23,8 +23,8 @@ public abstract class AbstractIllagerData<T extends AbstractIllager> extends Bip
 	}
 
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
-		if (stunType == StunType.LONG)
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
+		if (stunType == IExtendedDamageSource.StunType.LONG)
 			return Animations.BIPED_HIT_LONG;
 		else
 			return Animations.BIPED_HIT_SHORT;

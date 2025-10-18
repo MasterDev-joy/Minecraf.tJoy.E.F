@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.client.renderer.item;
+package joymaster.epicfight.client.renderer.item;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.model.ClientModels;
-import maninthehouse.epicfight.utils.math.MathUtils;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.client.model.ClientModels;
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.model.ModelElytra;

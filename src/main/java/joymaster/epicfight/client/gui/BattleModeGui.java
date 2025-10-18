@@ -1,17 +1,17 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import joymaster.epicfight.skill.Skill;
+import joymaster.epicfight.skill.SkillContainer;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.utils.math.Vec2f;
+import joymaster.epicfight.utils.math.Vec3f;
 import org.lwjgl.opengl.GL11;
 
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.skill.Skill;
-import maninthehouse.epicfight.skill.SkillContainer;
-import maninthehouse.epicfight.skill.SkillSlot;
-import maninthehouse.epicfight.utils.math.Vec2f;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.ScaledResolution;

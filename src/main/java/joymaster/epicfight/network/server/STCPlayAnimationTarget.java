@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.network.server;
+package joymaster.epicfight.network.server;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;

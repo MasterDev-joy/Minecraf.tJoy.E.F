@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.gamedata.Animations;
 import net.minecraft.item.Item;
 
 public class CrossbowCapability extends RangedWeaponCapability {

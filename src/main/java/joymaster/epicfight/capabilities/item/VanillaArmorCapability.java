@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;

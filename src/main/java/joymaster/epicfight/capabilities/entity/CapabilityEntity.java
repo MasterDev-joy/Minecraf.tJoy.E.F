@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.capabilities.entity;
+package joymaster.epicfight.capabilities.entity;
 
-import maninthehouse.epicfight.utils.math.MathUtils;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.Entity;
 
 public abstract class CapabilityEntity<T extends Entity> {

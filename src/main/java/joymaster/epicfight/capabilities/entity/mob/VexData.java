@@ -1,20 +1,20 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
 import java.util.Iterator;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimationTarget;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.MathUtils;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCPlayAnimationTarget;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.EntityAITasks;
@@ -84,7 +84,7 @@ public class VexData extends MobData<EntityVex> {
 	}
 
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
 		return Animations.VEX_HIT;
 	}
 	

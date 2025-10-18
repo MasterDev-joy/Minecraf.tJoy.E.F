@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.mob.ZombieData;
+import joymaster.epicfight.capabilities.entity.mob.ZombieData;
 import net.minecraft.entity.monster.EntityZombieVillager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

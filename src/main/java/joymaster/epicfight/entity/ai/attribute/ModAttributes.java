@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.entity.ai.attribute;
+package joymaster.epicfight.entity.ai.attribute;
 
 import java.util.UUID;
 

@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.physics.Collider;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.physics.Collider;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.EnumHand;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.client.model;
+package joymaster.epicfight.client.model;
 
 import java.util.List;
 

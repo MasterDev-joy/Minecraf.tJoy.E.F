@@ -1,14 +1,13 @@
-package maninthehouse.epicfight.main;
+package joymaster.epicfight.main;
 
 import org.apache.logging.log4j.Logger;
 
-import maninthehouse.epicfight.client.model.ClientModels;
-import maninthehouse.epicfight.config.ConfigurationCapability;
-import maninthehouse.epicfight.effects.ModEffects;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.main.proxy.IProxy;
+import joymaster.epicfight.client.model.ClientModels;
+import joymaster.epicfight.effects.ModEffects;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.main.proxy.IProxy;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.fml.client.config.IConfigElement;
 import net.minecraftforge.fml.common.FMLCommonHandler;

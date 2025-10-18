@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.item;
+package joymaster.epicfight.item;
 
 import javax.annotation.Nullable;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 
-import maninthehouse.epicfight.capabilities.ProviderItem;
-import maninthehouse.epicfight.capabilities.item.ModWeaponCapability;
+import joymaster.epicfight.capabilities.ProviderItem;
+import joymaster.epicfight.capabilities.item.ModWeaponCapability;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;

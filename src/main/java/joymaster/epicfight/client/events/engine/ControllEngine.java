@@ -1,27 +1,27 @@
-package maninthehouse.epicfight.client.events.engine;
+package joymaster.epicfight.client.events.engine;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.client.input.ModKeys;
+import joymaster.epicfight.config.ConfigurationIngame;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSPlayAnimation;
+import joymaster.epicfight.skill.SkillContainer;
+import joymaster.epicfight.skill.SkillSlot;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.client.input.ModKeys;
-import maninthehouse.epicfight.config.ConfigurationIngame;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSPlayAnimation;
-import maninthehouse.epicfight.skill.SkillContainer;
-import maninthehouse.epicfight.skill.SkillSlot;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.settings.GameSettings;
@@ -77,23 +77,23 @@ public class ControllEngine {
 		this.playerdata = playerdata;
 	}
 	
-	public boolean playerCanMove(EntityState playerState) {
+	public boolean playerCanMove(LivingData.EntityState playerState) {
 		return !playerState.isMovementLocked() || this.player.isRidingHorse();
 	}
 
-	public boolean playerCanRotate(EntityState playerState) {
+	public boolean playerCanRotate(LivingData.EntityState playerState) {
 		return !playerState.isCameraRotationLocked() || this.player.isRidingHorse();
 	}
 
-	public boolean playerCanAct(EntityState playerState) {
+	public boolean playerCanAct(LivingData.EntityState playerState) {
 		return !this.player.isSpectator() && !(this.player.isElytraFlying() || this.playerdata.currentMotion == LivingMotion.FALL || playerState.isMovementLocked());
 	}
 
-	public boolean playerCanDodging(EntityState playerState) {
+	public boolean playerCanDodging(LivingData.EntityState playerState) {
 		return !this.player.isSpectator() && !(this.player.isElytraFlying() || this.playerdata.currentMotion == LivingMotion.FALL || !playerState.canAct());
 	}
 
-	public boolean playerCanExecuteSkill(EntityState playerState) {
+	public boolean playerCanExecuteSkill(LivingData.EntityState playerState) {
 		return !this.player.isSpectator() && !(this.player.isElytraFlying() || this.playerdata.currentMotion == LivingMotion.FALL || !playerState.canAct());
 	}
 	
@@ -160,7 +160,7 @@ public class ControllEngine {
 		if (this.playerdata == null) {
 			return;
 		}
-		EntityState playerState = this.playerdata.getEntityState();
+		LivingData.EntityState playerState = this.playerdata.getEntityState();
 
 		if (this.mouseLeftPressToggle) {
 			if (!this.isKeyDown(this.gameSettings.keyBindAttack)) {
@@ -379,7 +379,7 @@ public class ControllEngine {
 		@SubscribeEvent
 		public static void cancelPlayerRotationWhenInaction(TickEvent.RenderTickEvent event) {
 			if (controllEngine.playerdata != null) {
-				EntityState playerState = controllEngine.playerdata.getEntityState();
+				LivingData.EntityState playerState = controllEngine.playerdata.getEntityState();
 				if (!controllEngine.playerCanRotate(playerState) && controllEngine.player.isEntityAlive()) {
 					Mouse.getDX();
 					Mouse.getDY();
@@ -393,7 +393,7 @@ public class ControllEngine {
 				return;
 			}
 			
-			EntityState playerState = controllEngine.playerdata.getEntityState();
+			LivingData.EntityState playerState = controllEngine.playerdata.getEntityState();
 			
 			if (!controllEngine.playerCanMove(playerState)) {
 				event.getMovementInput().moveForward = 0F;

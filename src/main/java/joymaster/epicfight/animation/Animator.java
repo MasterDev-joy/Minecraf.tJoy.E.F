@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public abstract class Animator {
 	protected LivingData<?> entitydata;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.entity;
+package joymaster.epicfight.capabilities.entity;
 
 import net.minecraft.network.datasync.DataParameter;
 import net.minecraft.network.datasync.DataSerializers;

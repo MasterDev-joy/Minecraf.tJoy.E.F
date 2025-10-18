@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.config;
+package joymaster.epicfight.config;
 
 import java.util.List;
 import java.util.Map;
@@ -7,17 +7,17 @@ import java.util.function.Supplier;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.HandProperty;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.WeaponCategory;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.WieldStyle;
-import maninthehouse.epicfight.capabilities.item.ModWeaponCapability;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.gamedata.Sounds;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.capabilities.item.CapabilityItem.HandProperty;
+import joymaster.epicfight.capabilities.item.CapabilityItem.WeaponCategory;
+import joymaster.epicfight.capabilities.item.CapabilityItem.WieldStyle;
+import joymaster.epicfight.capabilities.item.ModWeaponCapability;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Colliders;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.gamedata.Sounds;
 import net.minecraft.util.EnumHand;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Name;

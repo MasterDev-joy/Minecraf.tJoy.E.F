@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.apache.commons.lang3.ArrayUtils;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.client.model.Mesh;
-import maninthehouse.epicfight.utils.math.Vec2f;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.client.model.Mesh;
+import joymaster.epicfight.utils.math.Vec2f;
+import joymaster.epicfight.utils.math.Vec3f;
 
 public class VertexData {
 	private Vec3f position;

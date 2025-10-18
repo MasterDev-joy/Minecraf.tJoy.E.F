@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

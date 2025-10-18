@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.utils.game;
+package joymaster.epicfight.utils.game;
 
-import maninthehouse.epicfight.capabilities.entity.CapabilityEntity;
-import maninthehouse.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.capabilities.entity.CapabilityEntity;
+import joymaster.epicfight.utils.math.MathUtils;
 import net.minecraft.util.math.MathHelper;
 
 public class Formulars {

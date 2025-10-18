@@ -1,30 +1,28 @@
-package maninthehouse.epicfight.capabilities.entity;
+package joymaster.epicfight.capabilities.entity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import maninthehouse.epicfight.animation.Animator;
-import maninthehouse.epicfight.animation.AnimatorServer;
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.gamedata.Sounds;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimation;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.DamageType;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.MathUtils;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.Animator;
+import joymaster.epicfight.animation.AnimatorServer;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Colliders;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.gamedata.Sounds;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCPlayAnimation;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
@@ -195,7 +193,7 @@ public abstract class LivingData<T extends EntityLivingBase> extends CapabilityE
 		return true;
 	}
 	
-	public IExtendedDamageSource getDamageSource(StunType stunType, DamageType damageType, int animationId) {
+	public IExtendedDamageSource getDamageSource(IExtendedDamageSource.StunType stunType, IExtendedDamageSource.DamageType damageType, int animationId) {
 		return IExtendedDamageSource.causeMobDamage(orgEntity, stunType, damageType, animationId);
 	}
 	
@@ -498,7 +496,7 @@ public abstract class LivingData<T extends EntityLivingBase> extends CapabilityE
 		return this.<AnimatorServer>getAnimator();
 	}
 
-	public abstract StaticAnimation getHitAnimation(StunType stunType);
+	public abstract StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType);
 
 	@Override
 	public void aboutToDeath() {

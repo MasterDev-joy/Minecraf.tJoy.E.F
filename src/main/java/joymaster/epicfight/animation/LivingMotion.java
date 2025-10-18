@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
 public enum LivingMotion
 {

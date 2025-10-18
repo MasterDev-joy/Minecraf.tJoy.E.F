@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.effects;
+package joymaster.epicfight.effects;
 
 import java.util.UUID;
 

@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.client.renderer.layer;
+package joymaster.epicfight.client.renderer.layer;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.events.engine.RenderEngine;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.client.events.engine.RenderEngine;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Items;

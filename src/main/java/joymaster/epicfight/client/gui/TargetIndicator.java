@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;

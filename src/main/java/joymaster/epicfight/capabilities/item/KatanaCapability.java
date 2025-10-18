@@ -1,17 +1,17 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.gamedata.Sounds;
-import maninthehouse.epicfight.skill.SkillSlot;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Colliders;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.gamedata.Sounds;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 
 public class KatanaCapability extends ModWeaponCapability {
 	private Map<LivingMotion, StaticAnimation> sheathedMotions;

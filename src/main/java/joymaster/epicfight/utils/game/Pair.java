@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.game;
+package joymaster.epicfight.utils.game;
 
 public class Pair<T, E> {
 	private T first;

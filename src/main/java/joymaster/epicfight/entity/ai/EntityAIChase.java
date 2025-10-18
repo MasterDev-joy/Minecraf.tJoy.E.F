@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCLivingMotionChange;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.network.server.STCLivingMotionChange;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;

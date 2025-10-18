@@ -1,21 +1,21 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.client.events.engine.ControllEngine;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.main.GameConstants;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCSetSkillValue;
-import maninthehouse.epicfight.network.server.STCSetSkillValue.Target;
-import maninthehouse.epicfight.utils.game.Formulars;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.GameConstants;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.entity.LivingData.EntityState;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
+import joymaster.epicfight.client.events.engine.ControllEngine;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCSetSkillValue;
+import joymaster.epicfight.network.server.STCSetSkillValue.Target;
+import joymaster.epicfight.utils.game.Formulars;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;

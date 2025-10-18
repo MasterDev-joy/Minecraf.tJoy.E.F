@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.mob.CreeperData;
-import maninthehouse.epicfight.model.Armature;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.capabilities.entity.mob.CreeperData;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

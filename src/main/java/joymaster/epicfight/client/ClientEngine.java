@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.client;
+package joymaster.epicfight.client;
 
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.client.events.engine.ControllEngine;
-import maninthehouse.epicfight.client.events.engine.RenderEngine;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
+import joymaster.epicfight.client.events.engine.ControllEngine;
+import joymaster.epicfight.client.events.engine.RenderEngine;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 

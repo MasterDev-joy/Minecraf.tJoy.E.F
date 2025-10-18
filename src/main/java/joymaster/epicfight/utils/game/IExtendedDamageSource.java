@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.game;
+package joymaster.epicfight.utils.game;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;

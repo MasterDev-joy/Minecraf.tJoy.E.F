@@ -1,16 +1,16 @@
-package maninthehouse.epicfight.client.renderer.layer;
+package joymaster.epicfight.client.renderer.layer;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.item.ArmorCapability;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.model.ClientModel;
-import maninthehouse.epicfight.client.model.custom.CustomModelBakery;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.item.ArmorCapability;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.client.model.ClientModel;
+import joymaster.epicfight.client.model.custom.CustomModelBakery;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.GlStateManager;

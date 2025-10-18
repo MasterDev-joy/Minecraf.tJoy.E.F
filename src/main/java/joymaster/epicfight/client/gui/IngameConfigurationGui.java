@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import java.io.IOException;
 import java.util.Set;
 
-import maninthehouse.epicfight.config.ConfigurationIngame;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.config.ConfigurationIngame;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -25,7 +25,7 @@ public class IngameConfigurationGui extends GuiScreen implements IModGuiFactory 
 					ConfigurationIngame.longPressCount%=10;
 					ConfigurationIngame.longPressCount++;
 				},
-				() -> new TextComponentTranslation("gui."+EpicFightMod.MODID+".long_press_counter", (ItemStack.DECIMALFORMAT.format(ConfigurationIngame.longPressCount))).getFormattedText()
+				() -> new TextComponentTranslation("gui."+ EpicFightMod.MODID+".long_press_counter", (ItemStack.DECIMALFORMAT.format(ConfigurationIngame.longPressCount))).getFormattedText()
 		));
 		
 		this.filterAnimationButton = this.addButton(new OptionButton(1, this.width / 2 - 100, this.height / 4, 200, 20,

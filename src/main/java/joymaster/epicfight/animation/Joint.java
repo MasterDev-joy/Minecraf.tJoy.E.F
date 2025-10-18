@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class Joint
 {

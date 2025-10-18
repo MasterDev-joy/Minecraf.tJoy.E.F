@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.game;
+package joymaster.epicfight.utils.game;
 
 import java.util.List;
 

@@ -1,16 +1,16 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.animation.AnimationPlayer;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.collada.AnimationDataExtractor;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.main.GameConstants;
-import maninthehouse.epicfight.model.Armature;
+import joymaster.epicfight.animation.AnimationPlayer;
+import joymaster.epicfight.collada.AnimationDataExtractor;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.main.GameConstants;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.relauncher.Side;

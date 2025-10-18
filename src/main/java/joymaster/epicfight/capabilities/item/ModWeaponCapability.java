@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,12 +8,12 @@ import java.util.function.Function;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.skill.Skill;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.skill.Skill;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 import net.minecraft.util.SoundEvent;
 
 public class ModWeaponCapability extends CapabilityItem {

@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
-import maninthehouse.epicfight.animation.types.DynamicAnimation;
-import maninthehouse.epicfight.animation.types.LinkAnimation;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.main.GameConstants;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.main.GameConstants;
+import joymaster.epicfight.animation.types.DynamicAnimation;
+import joymaster.epicfight.animation.types.LinkAnimation;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class AnimatorServer extends Animator {
 	public final AnimationPlayer animationPlayer;

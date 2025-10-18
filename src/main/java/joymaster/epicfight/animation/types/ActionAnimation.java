@@ -1,14 +1,14 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.entity.event.EntityEventListener.Event;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.entity.event.EntityEventListener;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -49,7 +49,7 @@ public class ActionAnimation extends ImmovableAnimation {
 		}
 		
 		if(entity instanceof PlayerData) {
-			((PlayerData<?>)entity).getEventListener().activateEvents(Event.ON_ACTION_SERVER_EVENT);
+			((PlayerData<?>)entity).getEventListener().activateEvents(EntityEventListener.Event.ON_ACTION_SERVER_EVENT);
 		}
 	}
 	

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.main;
+package joymaster.epicfight.main;
 
 public class GameConstants {
 	public static final float A_TICK = 0.05F;

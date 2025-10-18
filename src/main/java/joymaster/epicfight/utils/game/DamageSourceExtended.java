@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.utils.game;
+package joymaster.epicfight.utils.game;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.EntityDamageSource;
 

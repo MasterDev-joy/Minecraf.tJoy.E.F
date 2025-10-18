@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.animation.types.LinkAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.physics.Collider;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.animation.types.LinkAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 import net.minecraft.util.EnumHand;
 
 public class AAAnimation extends TargetTraceAnimation {

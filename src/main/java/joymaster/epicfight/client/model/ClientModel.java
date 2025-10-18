@@ -1,13 +1,13 @@
-package maninthehouse.epicfight.client.model;
+package joymaster.epicfight.client.model;
 
 import java.io.IOException;
 
+import joymaster.epicfight.collada.ColladaModelLoader;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import org.lwjgl.opengl.GL11;
 
-import maninthehouse.epicfight.collada.ColladaModelLoader;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;

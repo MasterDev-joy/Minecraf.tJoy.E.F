@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
-import maninthehouse.epicfight.capabilities.entity.mob.BipedMobData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimation;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.capabilities.entity.mob.BipedMobData;
+import joymaster.epicfight.network.server.STCPlayAnimation;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IRangedAttackMob;

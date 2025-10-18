@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSRotatePlayerYaw;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSRotatePlayerYaw;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
 
 public class ImmovableAnimation extends StaticAnimation
 {

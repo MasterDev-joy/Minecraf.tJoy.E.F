@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.mob.VexData;
-import maninthehouse.epicfight.client.renderer.layer.HeldItemLayer;
-import maninthehouse.epicfight.model.Armature;
+import joymaster.epicfight.client.renderer.layer.HeldItemLayer;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.capabilities.entity.mob.VexData;
 import net.minecraft.entity.monster.EntityVex;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.entity;
+package joymaster.epicfight.capabilities.entity;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Optional;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.mob.Faction;
-import maninthehouse.epicfight.entity.ai.EntityAIArcher;
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.network.server.STCMobInitialSetting;
-import maninthehouse.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.entity.ai.EntityAIArcher;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.network.server.STCMobInitialSetting;
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.capabilities.entity.mob.Faction;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;

@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.network.server;
+package joymaster.epicfight.network.server;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.skill.SkillSlot;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;

@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Animations;
 import net.minecraft.item.Item;
 
 public class BowCapability extends RangedWeaponCapability {

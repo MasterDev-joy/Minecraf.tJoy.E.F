@@ -1,29 +1,29 @@
-package maninthehouse.epicfight.events;
+package joymaster.epicfight.events;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.CapabilityEntity;
-import maninthehouse.epicfight.capabilities.entity.IRangedAttackMobCapability;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.mob.BipedMobData;
-import maninthehouse.epicfight.capabilities.entity.mob.EndermanData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.effects.ModEffects;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSPlayAnimation;
-import maninthehouse.epicfight.network.server.STCPlayAnimation;
-import maninthehouse.epicfight.network.server.STCPotion;
-import maninthehouse.epicfight.network.server.STCPotion.Action;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.game.IndirectDamageSourceExtended;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.CapabilityEntity;
+import joymaster.epicfight.capabilities.entity.IRangedAttackMobCapability;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.mob.BipedMobData;
+import joymaster.epicfight.capabilities.entity.mob.EndermanData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.effects.ModEffects;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSPlayAnimation;
+import joymaster.epicfight.network.server.STCPlayAnimation;
+import joymaster.epicfight.network.server.STCPotion;
+import joymaster.epicfight.network.server.STCPotion.Action;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.game.IndirectDamageSourceExtended;
+import joymaster.epicfight.utils.game.IExtendedDamageSource.StunType;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;
@@ -59,7 +59,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-@Mod.EventBusSubscriber(modid=EpicFightMod.MODID)
+@Mod.EventBusSubscriber(modid= EpicFightMod.MODID)
 public class EntityEvents {
 	private static List<CapabilityEntity<?>> unInitializedEntitiesClient = Lists.<CapabilityEntity<?>>newArrayList();
 	private static List<CapabilityEntity<?>> unInitializedEntitiesServer = Lists.<CapabilityEntity<?>>newArrayList();

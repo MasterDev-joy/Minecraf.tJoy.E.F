@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.events;
+package joymaster.epicfight.events;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCGameruleChange;
-import maninthehouse.epicfight.utils.game.Formulars;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCGameruleChange;
+import joymaster.epicfight.utils.game.Formulars;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.IAttributeInstance;
@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
 
-@Mod.EventBusSubscriber(modid=EpicFightMod.MODID)
+@Mod.EventBusSubscriber(modid= EpicFightMod.MODID)
 public class WorldEvents {
 	@SubscribeEvent
 	public static void loadWorldEvent(WorldEvent.Load event) {

@@ -1,18 +1,17 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.math.Vec3f;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumHand;
 
 public class TargetTraceAnimation extends AttackAnimation {
 	public TargetTraceAnimation(int id, float convertTime, float antic, float preDelay, float contact, float recovery, boolean affectY,
-			@Nullable Collider collider, String index, String path) {
+                                @Nullable Collider collider, String index, String path) {
 		this(id, convertTime, antic, preDelay, contact, recovery, affectY, EnumHand.MAIN_HAND, collider, index, path);
 	}
 	
@@ -27,7 +26,7 @@ public class TargetTraceAnimation extends AttackAnimation {
 	
 	@Override
 	protected Vec3f getCoordVector(LivingData<?> entitydata) {
-		EntityState state = this.getState(entitydata.getAnimator().getPlayer().getElapsedTime());
+		LivingData.EntityState state = this.getState(entitydata.getAnimator().getPlayer().getElapsedTime());
 		Vec3f vec3 = super.getCoordVector(entitydata);
 		if(state.getLevel() < 3) {
 			EntityLivingBase orgEntity = entitydata.getOriginalEntity();

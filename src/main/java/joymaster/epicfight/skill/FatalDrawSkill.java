@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCResetBasicAttackCool;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCResetBasicAttackCool;
 import net.minecraft.network.PacketBuffer;
 
 public class FatalDrawSkill extends SelectiveAttackSkill

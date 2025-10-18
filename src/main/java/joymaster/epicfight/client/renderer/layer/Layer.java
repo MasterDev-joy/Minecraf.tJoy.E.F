@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.client.renderer.layer;
+package joymaster.epicfight.client.renderer.layer;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

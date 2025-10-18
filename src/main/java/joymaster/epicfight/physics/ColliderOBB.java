@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.physics;
+package joymaster.epicfight.physics;
 
 import org.lwjgl.opengl.GL11;
 
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;

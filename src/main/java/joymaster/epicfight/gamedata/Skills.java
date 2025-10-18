@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.gamedata;
+package joymaster.epicfight.gamedata;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.skill.DodgeSkill;
-import maninthehouse.epicfight.skill.FatalDrawSkill;
-import maninthehouse.epicfight.skill.KatanaPassive;
-import maninthehouse.epicfight.skill.Skill;
-import maninthehouse.epicfight.skill.SkillSlot;
-import maninthehouse.epicfight.skill.SpecialAttackSkill;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.skill.DodgeSkill;
+import joymaster.epicfight.skill.FatalDrawSkill;
+import joymaster.epicfight.skill.KatanaPassive;
+import joymaster.epicfight.skill.Skill;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.skill.SpecialAttackSkill;
+import joymaster.epicfight.utils.game.IExtendedDamageSource.StunType;
 import net.minecraft.util.ResourceLocation;
 
 public class Skills {

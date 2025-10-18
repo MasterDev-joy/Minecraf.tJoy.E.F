@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
 import net.minecraft.entity.monster.EntityZombieVillager;
 
 public class ZombieVillagerData extends ZombieData<EntityZombieVillager> {

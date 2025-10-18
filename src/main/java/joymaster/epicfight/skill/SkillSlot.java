@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 public enum SkillSlot
 {

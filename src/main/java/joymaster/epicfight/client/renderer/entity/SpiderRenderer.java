@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.mob.SpiderData;
-import maninthehouse.epicfight.client.renderer.layer.EyeLayer;
+import joymaster.epicfight.client.renderer.layer.EyeLayer;
+import joymaster.epicfight.capabilities.entity.mob.SpiderData;
 import net.minecraft.entity.monster.EntitySpider;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

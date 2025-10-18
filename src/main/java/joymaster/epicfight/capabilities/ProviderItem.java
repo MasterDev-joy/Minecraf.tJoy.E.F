@@ -1,24 +1,22 @@
-package maninthehouse.epicfight.capabilities;
+package joymaster.epicfight.capabilities;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import maninthehouse.epicfight.capabilities.item.ArmorCapability;
-import maninthehouse.epicfight.capabilities.item.AxeCapability;
-import maninthehouse.epicfight.capabilities.item.BowCapability;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem.WieldStyle;
-import maninthehouse.epicfight.capabilities.item.HoeCapability;
-import maninthehouse.epicfight.capabilities.item.ModWeaponCapability;
-import maninthehouse.epicfight.capabilities.item.PickaxeCapability;
-import maninthehouse.epicfight.capabilities.item.ShovelCapability;
-import maninthehouse.epicfight.capabilities.item.SwordCapability;
-import maninthehouse.epicfight.capabilities.item.VanillaArmorCapability;
-import maninthehouse.epicfight.config.ConfigurationCapability;
-import maninthehouse.epicfight.config.ConfigurationCapability.ArmorConfig;
-import maninthehouse.epicfight.config.ConfigurationCapability.WeaponConfig;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.config.ConfigurationCapability;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.item.ArmorCapability;
+import joymaster.epicfight.capabilities.item.AxeCapability;
+import joymaster.epicfight.capabilities.item.BowCapability;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.capabilities.item.CapabilityItem.WieldStyle;
+import joymaster.epicfight.capabilities.item.HoeCapability;
+import joymaster.epicfight.capabilities.item.ModWeaponCapability;
+import joymaster.epicfight.capabilities.item.PickaxeCapability;
+import joymaster.epicfight.capabilities.item.ShovelCapability;
+import joymaster.epicfight.capabilities.item.SwordCapability;
+import joymaster.epicfight.capabilities.item.VanillaArmorCapability;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -101,7 +99,7 @@ public class ProviderItem implements ICapabilityProvider {
 	}
 	
 	public static void addCustomItemCapabilities() {
-		for (WeaponConfig config : ConfigurationCapability.getWeaponConfigs()) {
+		for (ConfigurationCapability.WeaponConfig config : ConfigurationCapability.getWeaponConfigs()) {
 			Item item = ForgeRegistries.ITEMS.getValue(new ResourceLocation(config.registryName));
 			if (item != null) {
 				EpicFightMod.LOGGER.info("Register Custom Capaiblity for " + config.registryName);
@@ -114,7 +112,7 @@ public class ProviderItem implements ICapabilityProvider {
 			}
 		}
 		
-		for (ArmorConfig config : ConfigurationCapability.getArmorConfigs()) {
+		for (ConfigurationCapability.ArmorConfig config : ConfigurationCapability.getArmorConfigs()) {
 			try {
 				Item item = ForgeRegistries.ITEMS.getValue(new ResourceLocation(config.registryName));
 				if (item != null && item instanceof ItemArmor) {

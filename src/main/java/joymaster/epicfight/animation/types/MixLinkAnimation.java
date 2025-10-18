@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 
 public class MixLinkAnimation extends DynamicAnimation {

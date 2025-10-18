@@ -1,14 +1,14 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.CapabilityEntity;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.config.ConfigurationIngame;
-import maninthehouse.epicfight.effects.ModEffect;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.config.ConfigurationIngame;
+import joymaster.epicfight.effects.ModEffect;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.CapabilityEntity;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;

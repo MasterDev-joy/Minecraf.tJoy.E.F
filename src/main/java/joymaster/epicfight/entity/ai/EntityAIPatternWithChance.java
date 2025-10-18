@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
 import net.minecraft.entity.EntityCreature;
 
 public class EntityAIPatternWithChance extends EntityAIAttackPattern

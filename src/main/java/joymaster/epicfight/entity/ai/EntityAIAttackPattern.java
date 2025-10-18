@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.entity.ai;
+package joymaster.epicfight.entity.ai;
 
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.MobData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimationTarget;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.MobData;
+import joymaster.epicfight.network.server.STCPlayAnimationTarget;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;
@@ -88,7 +88,7 @@ public class EntityAIAttackPattern extends EntityAIBase
         	this.patternIndex %= pattern.size();
         	mobdata.getServerAnimator().playAnimation(att, 0);
         	mobdata.updateInactionState();
-        	ModNetworkManager.sendToAllPlayerTrackingThisEntity(new STCPlayAnimationTarget(att.getId(), attacker.getEntityId(), 0, 
+        	ModNetworkManager.sendToAllPlayerTrackingThisEntity(new STCPlayAnimationTarget(att.getId(), attacker.getEntityId(), 0,
         			attacker.getAttackTarget().getEntityId()), attacker);
         }
     }

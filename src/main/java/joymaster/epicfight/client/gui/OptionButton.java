@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;

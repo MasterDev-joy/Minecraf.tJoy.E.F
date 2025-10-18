@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.entity.player;
+package joymaster.epicfight.capabilities.entity.player;
 
 import java.util.List;
 import java.util.Map;
@@ -8,21 +8,20 @@ import java.util.UUID;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCLivingMotionChange;
-import maninthehouse.epicfight.network.server.STCNotifyPlayerYawChanged;
-import maninthehouse.epicfight.network.server.STCPlayAnimation;
-import maninthehouse.epicfight.network.server.STCSetSkillValue;
-import maninthehouse.epicfight.network.server.STCSetSkillValue.Target;
-import maninthehouse.epicfight.skill.SkillContainer;
-import maninthehouse.epicfight.skill.SkillSlot;
-import maninthehouse.epicfight.utils.game.Formulars;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCLivingMotionChange;
+import joymaster.epicfight.network.server.STCNotifyPlayerYawChanged;
+import joymaster.epicfight.network.server.STCPlayAnimation;
+import joymaster.epicfight.network.server.STCSetSkillValue;
+import joymaster.epicfight.skill.SkillContainer;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.utils.game.Formulars;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.IAttributeInstance;
@@ -50,7 +49,7 @@ public class ServerPlayerData extends PlayerData<EntityPlayerMP> {
 				
 				if (value > 0.0F) {
 					this.getSkill(SkillSlot.WEAPON_SPECIAL_ATTACK).setCooldown(value);
-					ModNetworkManager.sendToPlayer(new STCSetSkillValue(Target.COOLDOWN, SkillSlot.WEAPON_SPECIAL_ATTACK.getIndex(), value, false), orgEntity);
+					ModNetworkManager.sendToPlayer(new STCSetSkillValue(STCSetSkillValue.Target.COOLDOWN, SkillSlot.WEAPON_SPECIAL_ATTACK.getIndex(), value, false), orgEntity);
 				}
 			}
 		}

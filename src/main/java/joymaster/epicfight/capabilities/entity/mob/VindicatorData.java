@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.gamedata.Animations;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityVindicator;
 

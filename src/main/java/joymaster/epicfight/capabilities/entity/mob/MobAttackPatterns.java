@@ -1,10 +1,10 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.gamedata.Animations;
 
 public class MobAttackPatterns {
 	static List<AttackAnimation> BIPED_ARMED_ONEHAND = new ArrayList<AttackAnimation> ();

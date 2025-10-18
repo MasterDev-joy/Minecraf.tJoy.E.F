@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class Quaternion {
 	private float x, y, z, w;

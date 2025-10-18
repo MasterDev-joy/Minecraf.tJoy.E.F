@@ -1,15 +1,15 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.animation.AnimationPlayer;
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.Quaternion;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.collada.AnimationDataExtractor;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.animation.AnimationPlayer;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.Quaternion;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.collada.AnimationDataExtractor;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 

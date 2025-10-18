@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.gamedata;
+package joymaster.epicfight.gamedata;
 
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.model.Model;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.model.Model;
 import net.minecraft.util.ResourceLocation;
 
 public class Models<T extends Model> {

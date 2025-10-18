@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
 import java.util.Map;
 
-import maninthehouse.epicfight.animation.JointKeyframe;
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.TransformSheet;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.animation.JointKeyframe;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.TransformSheet;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class VariableHitAnimation extends HitAnimation
 {

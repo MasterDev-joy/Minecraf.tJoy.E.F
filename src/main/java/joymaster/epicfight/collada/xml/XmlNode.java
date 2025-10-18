@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.collada.xml;
+package joymaster.epicfight.collada.xml;
 
 import java.util.ArrayList;
 import java.util.HashMap;

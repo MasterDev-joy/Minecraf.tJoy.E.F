@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.capabilities;
+package joymaster.epicfight.capabilities;
 
-import maninthehouse.epicfight.capabilities.entity.CapabilityEntity;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.capabilities.entity.CapabilityEntity;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.util.EnumFacing;

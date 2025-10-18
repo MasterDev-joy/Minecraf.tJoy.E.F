@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.client.renderer.entity;
+package joymaster.epicfight.client.renderer.entity;
 
-import maninthehouse.epicfight.capabilities.entity.mob.EndermanData;
-import maninthehouse.epicfight.client.renderer.layer.EyeLayer;
-import maninthehouse.epicfight.client.renderer.layer.HeldItemLayer;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.client.renderer.layer.EyeLayer;
+import joymaster.epicfight.client.renderer.layer.HeldItemLayer;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.mob.EndermanData;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

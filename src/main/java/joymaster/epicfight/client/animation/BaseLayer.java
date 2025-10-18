@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.client.animation;
+package joymaster.epicfight.client.animation;
 
-import maninthehouse.epicfight.animation.AnimationPlayer;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.types.DynamicAnimation;
-import maninthehouse.epicfight.animation.types.LinkAnimation;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.main.GameConstants;
+import joymaster.epicfight.animation.AnimationPlayer;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.main.GameConstants;
+import joymaster.epicfight.animation.types.DynamicAnimation;
+import joymaster.epicfight.animation.types.LinkAnimation;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

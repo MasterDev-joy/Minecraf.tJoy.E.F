@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.math;
+package joymaster.epicfight.utils.math;
 
 public class Vec3f extends Vec2f
 {

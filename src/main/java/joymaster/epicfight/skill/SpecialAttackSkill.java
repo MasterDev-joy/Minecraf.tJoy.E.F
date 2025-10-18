@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,19 +6,19 @@ import java.util.Map;
 
 import com.google.common.collect.Lists;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.client.CTSExecuteSkill;
-import maninthehouse.epicfight.network.server.STCResetBasicAttackCool;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData.EntityState;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.client.CTSExecuteSkill;
+import joymaster.epicfight.network.server.STCResetBasicAttackCool;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.text.ITextComponent;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.network.client;
+package joymaster.epicfight.network.client;
 
 import java.util.List;
 import java.util.Map;
@@ -6,12 +6,12 @@ import java.util.Map;
 import com.google.common.collect.Lists;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCLivingMotionChange;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.network.server.STCLivingMotionChange;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;

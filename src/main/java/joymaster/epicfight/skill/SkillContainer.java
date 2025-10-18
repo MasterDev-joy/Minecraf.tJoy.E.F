@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.client.capabilites.entity.ClientPlayerData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.client.capabilites.entity.ClientPlayerData;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.PacketBuffer;
 import net.minecraftforge.fml.relauncher.Side;

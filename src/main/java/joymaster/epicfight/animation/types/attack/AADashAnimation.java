@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.animation.types.AnimationProperty;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.animation.types.AnimationProperty;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.Entity;
 
 public class AADashAnimation extends AttackAnimation {

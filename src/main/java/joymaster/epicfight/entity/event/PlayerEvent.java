@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.entity.event;
+package joymaster.epicfight.entity.event;
 
 import java.util.UUID;
 import java.util.function.Function;
 
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
 
 public class PlayerEvent implements Comparable<UUID>
 {

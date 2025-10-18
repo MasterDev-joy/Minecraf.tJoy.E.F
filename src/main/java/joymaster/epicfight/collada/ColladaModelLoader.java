@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -7,13 +7,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.client.model.Mesh;
-import maninthehouse.epicfight.collada.xml.XmlNode;
-import maninthehouse.epicfight.collada.xml.XmlParser;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.client.model.Mesh;
+import joymaster.epicfight.collada.xml.XmlNode;
+import joymaster.epicfight.collada.xml.XmlParser;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

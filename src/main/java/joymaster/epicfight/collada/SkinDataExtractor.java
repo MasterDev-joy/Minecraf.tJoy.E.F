@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.util.List;
 import java.util.Map;
 
 import com.google.common.collect.Maps;
 
-import maninthehouse.epicfight.collada.xml.XmlNode;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.collada.xml.XmlNode;
+import joymaster.epicfight.utils.math.Vec3f;
 
 public class SkinDataExtractor {
 	private static final int MAX_JOINT_LIMIT = 3;

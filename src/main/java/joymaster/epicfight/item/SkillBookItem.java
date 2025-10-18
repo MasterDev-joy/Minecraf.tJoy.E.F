@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.item;
+package joymaster.epicfight.item;
 
 import java.util.List;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.skill.Skill;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.skill.Skill;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.EnumRarity;

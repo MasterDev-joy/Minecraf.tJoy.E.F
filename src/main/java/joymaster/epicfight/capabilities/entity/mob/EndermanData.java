@@ -1,24 +1,23 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.DataKeys;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.effects.ModEffects;
-import maninthehouse.epicfight.entity.ai.EntityAIAttackPattern;
-import maninthehouse.epicfight.entity.ai.EntityAIChase;
-import maninthehouse.epicfight.entity.ai.EntityAIPatternWithChance;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCPlayAnimationTP;
-import maninthehouse.epicfight.network.server.STCPlayAnimationTarget;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.DataKeys;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.effects.ModEffects;
+import joymaster.epicfight.entity.ai.EntityAIAttackPattern;
+import joymaster.epicfight.entity.ai.EntityAIChase;
+import joymaster.epicfight.entity.ai.EntityAIPatternWithChance;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCPlayAnimationTP;
+import joymaster.epicfight.network.server.STCPlayAnimationTarget;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.math.Vec3f;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;
@@ -152,7 +151,7 @@ public class EndermanData extends BipedMobData<EntityEnderman> {
 			if(damageSource instanceof IExtendedDamageSource)
 				extDamageSource = ((IExtendedDamageSource)damageSource);
 			
-			if(extDamageSource == null || extDamageSource.getStunType() != StunType.HOLD)
+			if(extDamageSource == null || extDamageSource.getStunType() != IExtendedDamageSource.StunType.HOLD)
 			{
 				int percentage = this.animator.getPlayer().getPlay() instanceof AttackAnimation ? 10 : 3;
 				if(orgEntity.getRNG().nextInt(percentage) == 0)
@@ -295,8 +294,8 @@ public class EndermanData extends BipedMobData<EntityEnderman> {
 	}
 
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
-		if (stunType == StunType.LONG) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
+		if (stunType == IExtendedDamageSource.StunType.LONG) {
 			return Animations.ENDERMAN_HIT_LONG;
 		} else {
 			return Animations.ENDERMAN_HIT_SHORT;
@@ -365,7 +364,7 @@ public class EndermanData extends BipedMobData<EntityEnderman> {
 	            	
 	                AttackAnimation kickAnimation = attacker.getRNG().nextBoolean() ? (AttackAnimation) Animations.ENDERMAN_TP_KICK1 : (AttackAnimation) Animations.ENDERMAN_TP_KICK2;
 		        	mobdata.getServerAnimator().playAnimation(kickAnimation, 0);
-		        	ModNetworkManager.sendToAllPlayerTrackingThisEntity(new STCPlayAnimationTP(kickAnimation.getId(), attacker.getEntityId(), 0.0F, 
+		        	ModNetworkManager.sendToAllPlayerTrackingThisEntity(new STCPlayAnimationTP(kickAnimation.getId(), attacker.getEntityId(), 0.0F,
 		        			attacker.getAttackTarget().getEntityId(), attacker.posX, attacker.posY, attacker.posZ, attacker.rotationYaw), attacker);
 		        	
 		        	attacker.world.playSound((EntityPlayer)null, attacker.prevPosX, attacker.prevPosY, attacker.prevPosZ,

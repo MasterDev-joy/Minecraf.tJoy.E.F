@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.capabilities.item;
+package joymaster.epicfight.capabilities.item;
 
 import java.util.List;
 import java.util.UUID;
@@ -6,11 +6,11 @@ import java.util.UUID;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.model.ClientModel;
-import maninthehouse.epicfight.client.model.ClientModels;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.client.model.ClientModel;
+import joymaster.epicfight.client.model.ClientModels;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
 import java.util.List;
 

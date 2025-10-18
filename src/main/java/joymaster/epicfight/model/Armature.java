@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.model;
+package joymaster.epicfight.model;
 
 import java.util.Map;
 
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class Armature {
 	private final Map<Integer, Joint> jointTable;

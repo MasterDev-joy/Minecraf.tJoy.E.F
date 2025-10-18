@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.collada.AnimationDataExtractor;
-import maninthehouse.epicfight.main.EpicFightMod;
-import maninthehouse.epicfight.model.Armature;
+import joymaster.epicfight.collada.AnimationDataExtractor;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.model.Armature;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 

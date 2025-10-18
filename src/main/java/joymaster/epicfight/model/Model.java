@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.model;
+package joymaster.epicfight.model;
 
 import java.io.IOException;
 
-import maninthehouse.epicfight.collada.ColladaModelLoader;
+import joymaster.epicfight.collada.ColladaModelLoader;
 import net.minecraft.util.ResourceLocation;
 
 public class Model {

@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.client.model;
+package joymaster.epicfight.client.model;
 
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

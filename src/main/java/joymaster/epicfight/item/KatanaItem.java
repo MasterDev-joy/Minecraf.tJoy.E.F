@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.item;
+package joymaster.epicfight.item;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Nullable;
 
-import maninthehouse.epicfight.capabilities.item.KatanaCapability;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.item.KatanaCapability;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.init.Items;

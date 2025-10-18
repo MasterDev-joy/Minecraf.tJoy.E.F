@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.client.renderer;
+package joymaster.epicfight.client.renderer;
 
+import joymaster.epicfight.utils.math.MathUtils;
+import joymaster.epicfight.utils.math.Vec3f;
 import org.lwjgl.opengl.GL11;
 
-import maninthehouse.epicfight.utils.math.MathUtils;
-import maninthehouse.epicfight.utils.math.Vec3f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ActiveRenderInfo;
 import net.minecraft.client.renderer.BufferBuilder;

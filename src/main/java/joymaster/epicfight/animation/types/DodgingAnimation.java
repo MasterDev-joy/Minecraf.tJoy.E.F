@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.utils.game.Formulars;
+import joymaster.epicfight.utils.game.Formulars;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class DodgingAnimation extends ActionAnimation {
 	private final float width;

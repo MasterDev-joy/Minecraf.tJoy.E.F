@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.client.gui;
+package joymaster.epicfight.client.gui;
 
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.BufferBuilder;

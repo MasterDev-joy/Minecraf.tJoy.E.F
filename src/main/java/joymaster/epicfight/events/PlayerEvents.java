@@ -1,11 +1,11 @@
-package maninthehouse.epicfight.events;
+package joymaster.epicfight.events;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.ClientEngine;
-import maninthehouse.epicfight.gamedata.Colliders;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.client.ClientEngine;
+import joymaster.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
+import joymaster.epicfight.gamedata.Colliders;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBow;
@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent;
 
-@Mod.EventBusSubscriber(modid=EpicFightMod.MODID)
+@Mod.EventBusSubscriber(modid= EpicFightMod.MODID)
 public class PlayerEvents {
 	@SubscribeEvent
 	public static void arrowLooseEvent(ArrowLooseEvent event) {

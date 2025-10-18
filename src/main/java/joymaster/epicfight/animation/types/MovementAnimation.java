@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.main.GameConstants;
+import joymaster.epicfight.main.GameConstants;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class MovementAnimation extends StaticAnimation
 {	

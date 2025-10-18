@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,19 +7,19 @@ import java.nio.FloatBuffer;
 import java.util.ArrayList;
 import java.util.List;
 
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.animation.JointKeyframe;
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.Quaternion;
-import maninthehouse.epicfight.animation.TransformSheet;
-import maninthehouse.epicfight.animation.types.MixLinkAnimation;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.collada.xml.XmlNode;
-import maninthehouse.epicfight.collada.xml.XmlParser;
-import maninthehouse.epicfight.model.Armature;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.model.Armature;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.animation.JointKeyframe;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.Quaternion;
+import joymaster.epicfight.animation.TransformSheet;
+import joymaster.epicfight.animation.types.MixLinkAnimation;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.collada.xml.XmlNode;
+import joymaster.epicfight.collada.xml.XmlParser;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.util.ResourceLocation;
 
 public class AnimationDataExtractor

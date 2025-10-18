@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.utils.math;
+package joymaster.epicfight.utils.math;
 
 import net.minecraft.util.math.Vec3d;
 

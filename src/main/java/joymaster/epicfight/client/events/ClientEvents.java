@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.client.events;
+package joymaster.epicfight.client.events;
 
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.client.model.DynamicPerspectiveModel;
+import joymaster.epicfight.item.ModItems;
+import joymaster.epicfight.main.EpicFightMod;
 import org.lwjgl.input.Mouse;
 
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.item.CapabilityItem;
-import maninthehouse.epicfight.client.model.DynamicPerspectiveModel;
-import maninthehouse.epicfight.item.ModItems;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.capabilities.item.CapabilityItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.block.model.IBakedModel;

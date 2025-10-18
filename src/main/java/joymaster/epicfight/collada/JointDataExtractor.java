@@ -1,14 +1,14 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.nio.FloatBuffer;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.collada.xml.XmlNode;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.collada.xml.XmlNode;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class JointDataExtractor
 {

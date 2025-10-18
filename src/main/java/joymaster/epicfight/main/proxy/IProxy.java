@@ -1,4 +1,4 @@
-package maninthehouse.epicfight.main.proxy;
+package joymaster.epicfight.main.proxy;
 
 public interface IProxy {
 	public void init();

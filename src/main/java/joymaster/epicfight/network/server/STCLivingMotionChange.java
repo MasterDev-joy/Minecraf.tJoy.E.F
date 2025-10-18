@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.network.server;
+package joymaster.epicfight.network.server;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;

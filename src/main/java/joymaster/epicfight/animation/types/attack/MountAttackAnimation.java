@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.animation.types.attack;
+package joymaster.epicfight.animation.types.attack;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.utils.math.Vec3f;
 
 public class MountAttackAnimation extends AttackAnimation {
 	public MountAttackAnimation(int id, float convertTime, float antic, float preDelay, float contact, float recovery, Collider collider, String index, String path) {

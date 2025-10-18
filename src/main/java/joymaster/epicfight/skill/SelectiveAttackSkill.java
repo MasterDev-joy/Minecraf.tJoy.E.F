@@ -1,12 +1,12 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 import java.util.function.Function;
 
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.animation.types.attack.AttackAnimation;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCResetBasicAttackCool;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.animation.types.attack.AttackAnimation;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCResetBasicAttackCool;
 import net.minecraft.network.PacketBuffer;
 
 public class SelectiveAttackSkill extends SpecialAttackSkill

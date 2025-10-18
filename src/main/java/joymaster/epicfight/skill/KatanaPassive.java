@@ -1,18 +1,18 @@
-package maninthehouse.epicfight.skill;
+package joymaster.epicfight.skill;
 
 import java.util.UUID;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.capabilities.entity.player.PlayerData;
-import maninthehouse.epicfight.capabilities.entity.player.ServerPlayerData;
-import maninthehouse.epicfight.entity.event.PlayerEvent;
-import maninthehouse.epicfight.entity.event.EntityEventListener.Event;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.network.ModNetworkManager;
-import maninthehouse.epicfight.network.server.STCLivingMotionChange;
-import maninthehouse.epicfight.network.server.STCModifySkillVariable;
-import maninthehouse.epicfight.network.server.STCPlayAnimation;
-import maninthehouse.epicfight.network.server.STCModifySkillVariable.VariableType;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.capabilities.entity.player.PlayerData;
+import joymaster.epicfight.capabilities.entity.player.ServerPlayerData;
+import joymaster.epicfight.entity.event.PlayerEvent;
+import joymaster.epicfight.entity.event.EntityEventListener.Event;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.network.server.STCLivingMotionChange;
+import joymaster.epicfight.network.server.STCModifySkillVariable;
+import joymaster.epicfight.network.server.STCPlayAnimation;
+import joymaster.epicfight.network.server.STCModifySkillVariable.VariableType;
 import net.minecraft.entity.player.EntityPlayerMP;
 
 public class KatanaPassive extends Skill {

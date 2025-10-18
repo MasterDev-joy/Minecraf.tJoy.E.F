@@ -1,15 +1,15 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.capabilities.entity.DataKeys;
-import maninthehouse.epicfight.capabilities.entity.IRangedAttackMobCapability;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.utils.game.IndirectDamageSourceExtended;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.capabilities.entity.DataKeys;
+import joymaster.epicfight.capabilities.entity.IRangedAttackMobCapability;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
+import joymaster.epicfight.utils.game.IndirectDamageSourceExtended;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.AbstractSkeleton;
 
@@ -64,7 +64,7 @@ public class SkeletonData<T extends AbstractSkeleton> extends BipedMobData<T> im
 	
 	@Override
 	public IndirectDamageSourceExtended getRangedDamageSource(Entity damageCarrier) {
-		IndirectDamageSourceExtended source = new IndirectDamageSourceExtended("arrow", this.orgEntity, damageCarrier, StunType.SHORT);
+		IndirectDamageSourceExtended source = new IndirectDamageSourceExtended("arrow", this.orgEntity, damageCarrier, IExtendedDamageSource.StunType.SHORT);
 		source.setImpact(1.0F);
 		
 		return source;

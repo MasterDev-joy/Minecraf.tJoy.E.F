@@ -1,23 +1,23 @@
-package maninthehouse.epicfight.client.animation;
+package joymaster.epicfight.client.animation;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import maninthehouse.epicfight.animation.AnimationPlayer;
-import maninthehouse.epicfight.animation.Animator;
-import maninthehouse.epicfight.animation.Joint;
-import maninthehouse.epicfight.animation.JointTransform;
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.Pose;
-import maninthehouse.epicfight.animation.types.MirrorAnimation;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.capabilities.entity.LivingData.EntityState;
-import maninthehouse.epicfight.client.model.ClientModels;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.client.model.ClientModels;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.animation.AnimationPlayer;
+import joymaster.epicfight.animation.Animator;
+import joymaster.epicfight.animation.Joint;
+import joymaster.epicfight.animation.JointTransform;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.Pose;
+import joymaster.epicfight.animation.types.MirrorAnimation;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.capabilities.entity.LivingData.EntityState;
 
 public class AnimatorClient extends Animator {
 	private final Map<LivingMotion, StaticAnimation> livingAnimations = new HashMap<LivingMotion, StaticAnimation>();

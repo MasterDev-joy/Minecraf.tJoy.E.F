@@ -1,25 +1,22 @@
-package maninthehouse.epicfight.capabilities.entity.player;
+package joymaster.epicfight.capabilities.entity.player;
 
 import java.util.UUID;
 
-import maninthehouse.epicfight.animation.LivingMotion;
-import maninthehouse.epicfight.animation.types.StaticAnimation;
-import maninthehouse.epicfight.capabilities.entity.DataKeys;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
-import maninthehouse.epicfight.entity.ai.attribute.ModAttributes;
-import maninthehouse.epicfight.entity.event.EntityEventListener;
-import maninthehouse.epicfight.entity.event.EntityEventListener.Event;
-import maninthehouse.epicfight.entity.event.PlayerEvent;
-import maninthehouse.epicfight.gamedata.Animations;
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.gamedata.Skills;
-import maninthehouse.epicfight.model.Model;
-import maninthehouse.epicfight.skill.SkillContainer;
-import maninthehouse.epicfight.skill.SkillSlot;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.DamageType;
-import maninthehouse.epicfight.utils.game.IExtendedDamageSource.StunType;
+import joymaster.epicfight.animation.LivingMotion;
+import joymaster.epicfight.animation.types.StaticAnimation;
+import joymaster.epicfight.capabilities.entity.DataKeys;
+import joymaster.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.entity.ai.attribute.ModAttributes;
+import joymaster.epicfight.entity.event.EntityEventListener;
+import joymaster.epicfight.entity.event.PlayerEvent;
+import joymaster.epicfight.gamedata.Animations;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.gamedata.Skills;
+import joymaster.epicfight.model.Model;
+import joymaster.epicfight.skill.SkillContainer;
+import joymaster.epicfight.skill.SkillSlot;
+import joymaster.epicfight.utils.game.IExtendedDamageSource;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
@@ -48,7 +45,7 @@ public abstract class PlayerData<T extends EntityPlayer> extends LivingData<T> {
 			this.orgEntity.getDataManager().register(DataKeys.STUN_ARMOR, Float.valueOf(0.0F));
 		}
 		this.tickSinceLastAction = 40;
-		this.eventListeners.addEventListener(Event.ON_ACTION_SERVER_EVENT, PlayerEvent.makeEvent(ACTION_EVENT_UUID, (player) -> {
+		this.eventListeners.addEventListener(EntityEventListener.Event.ON_ACTION_SERVER_EVENT, PlayerEvent.makeEvent(ACTION_EVENT_UUID, (player) -> {
 			player.tickSinceLastAction = 0;
 			return false;
 		}));
@@ -145,12 +142,12 @@ public abstract class PlayerData<T extends EntityPlayer> extends LivingData<T> {
 	}
 	
 	@Override
-	public IExtendedDamageSource getDamageSource(StunType stunType, DamageType damageType, int id) {
+	public IExtendedDamageSource getDamageSource(IExtendedDamageSource.StunType stunType, IExtendedDamageSource.DamageType damageType, int id) {
 		return IExtendedDamageSource.causePlayerDamage(orgEntity, stunType, damageType, id);
 	}
 	
 	@Override
-	public StaticAnimation getHitAnimation(StunType stunType) {
+	public StaticAnimation getHitAnimation(IExtendedDamageSource.StunType stunType) {
 		if(orgEntity.getRidingEntity() != null) {
 			return Animations.BIPED_HIT_ON_MOUNT;
 		} else {

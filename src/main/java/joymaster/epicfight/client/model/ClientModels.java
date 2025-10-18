@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.client.model;
+package joymaster.epicfight.client.model;
 
-import maninthehouse.epicfight.gamedata.Models;
-import maninthehouse.epicfight.main.EpicFightMod;
+import joymaster.epicfight.gamedata.Models;
+import joymaster.epicfight.main.EpicFightMod;
 import net.minecraft.util.ResourceLocation;
 
 public class ClientModels extends Models<ClientModel> {

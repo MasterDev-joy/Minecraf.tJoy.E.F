@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation;
+package joymaster.epicfight.animation;
 
-import maninthehouse.epicfight.animation.types.DynamicAnimation;
-import maninthehouse.epicfight.capabilities.entity.LivingData;
+import joymaster.epicfight.animation.types.DynamicAnimation;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class AnimationPlayer {
 	private float elapsedTime;

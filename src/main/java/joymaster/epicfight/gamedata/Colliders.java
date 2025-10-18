@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.gamedata;
+package joymaster.epicfight.gamedata;
 
-import maninthehouse.epicfight.physics.Collider;
-import maninthehouse.epicfight.physics.ColliderOBB;
+import joymaster.epicfight.physics.Collider;
+import joymaster.epicfight.physics.ColliderOBB;
 
 public class Colliders {
 	public static Collider body = new ColliderOBB(0.5F, 0.7F, 0.7F, 0F, 1.0F, -0.6F);

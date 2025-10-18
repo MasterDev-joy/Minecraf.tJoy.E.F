@@ -1,7 +1,7 @@
-package maninthehouse.epicfight.animation.types;
+package joymaster.epicfight.animation.types;
 
-import maninthehouse.epicfight.capabilities.entity.LivingData;
-import maninthehouse.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.client.animation.AnimatorClient;
+import joymaster.epicfight.capabilities.entity.LivingData;
 
 public class ReboundAnimation extends AimingAnimation {
 	public ReboundAnimation(int id, float convertTime, boolean repeatPlay, String path1, String path2, String path3) {

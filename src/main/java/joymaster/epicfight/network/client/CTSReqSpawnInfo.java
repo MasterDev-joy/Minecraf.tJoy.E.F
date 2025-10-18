@@ -1,9 +1,9 @@
-package maninthehouse.epicfight.network.client;
+package joymaster.epicfight.network.client;
 
 import io.netty.buffer.ByteBuf;
-import maninthehouse.epicfight.capabilities.ModCapabilities;
-import maninthehouse.epicfight.capabilities.entity.mob.BipedMobData;
-import maninthehouse.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.capabilities.ModCapabilities;
+import joymaster.epicfight.network.ModNetworkManager;
+import joymaster.epicfight.capabilities.entity.mob.BipedMobData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;

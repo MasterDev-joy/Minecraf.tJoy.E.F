@@ -1,8 +1,8 @@
-package maninthehouse.epicfight.physics;
+package joymaster.epicfight.physics;
 
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.AxisAlignedBB;
 

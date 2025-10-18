@@ -1,15 +1,15 @@
-package maninthehouse.epicfight.collada;
+package joymaster.epicfight.collada;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import maninthehouse.epicfight.collada.xml.XmlNode;
-import maninthehouse.epicfight.utils.math.Vec2f;
-import maninthehouse.epicfight.utils.math.Vec3f;
-import maninthehouse.epicfight.utils.math.Vec4f;
-import maninthehouse.epicfight.utils.math.VisibleMatrix4f;
+import joymaster.epicfight.collada.xml.XmlNode;
+import joymaster.epicfight.utils.math.Vec2f;
+import joymaster.epicfight.utils.math.Vec3f;
+import joymaster.epicfight.utils.math.Vec4f;
+import joymaster.epicfight.utils.math.VisibleMatrix4f;
 
 public class GeometryDataExtractor
 {

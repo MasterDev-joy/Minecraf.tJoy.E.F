@@ -1,6 +1,6 @@
-package maninthehouse.epicfight.capabilities.entity.mob;
+package joymaster.epicfight.capabilities.entity.mob;
 
-import maninthehouse.epicfight.item.ModItems;
+import joymaster.epicfight.item.ModItems;
 import net.minecraft.entity.monster.EntityStray;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
