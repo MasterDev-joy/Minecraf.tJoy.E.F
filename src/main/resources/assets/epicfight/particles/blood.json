@@ -1,6 +1,10 @@
 {
 	"textures":
 	[
-		"minecraft:drip_hang"
+		"epicfight:blood1",
+		"epicfight:blood2",
+		"epicfight:blood3",
+		"epicfight:blood4",
+		"epicfight:blood5"
 	]
 }
